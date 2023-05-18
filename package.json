@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host" ,
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -16,8 +16,10 @@
     "@mui/material": "^5.13.0",
     "bootstrap": "^5.2.3",
     "bpg-boxo": "^1.0.0",
+    "chart.js": "^4.3.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
+    "react-charts": "^3.0.0-beta.54",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-player": "^2.12.0",

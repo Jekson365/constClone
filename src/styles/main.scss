@@ -1,20 +1,20 @@
-@import url("//cdn.web-fonts.ge/fonts/bpg-boxo/css/bpg-boxo.min.css");
+  @import url('https://fonts.googleapis.com/css2?family=Itim&family=KoHo&family=Krub:wght@200&family=Lalezar&family=Lato&family=Raleway:wght@300;500&family=Ysabeau:wght@500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "BPG Boxo", sans-serif !important;
-}
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: "BPG Boxo", sans-serif !important;
+  }
 
-body {
-    width: 100vw;
-    overflow: hidden;
-    height: 100vh;
+  body {
+      width: 100vw;
+      overflow: hidden;
+      height: 100vh;
 
-}
+  }
 
-@media screen and (max-width:900px) {
-    .col2-main {
-        overflow: scroll;
-    }
-}
+  @media screen and (max-width:900px) {
+      .col2-main {
+          overflow: scroll;
+      }
+  }

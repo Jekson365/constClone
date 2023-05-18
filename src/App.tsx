@@ -16,7 +16,7 @@ function App() {
             xs={4}
             height={'100%'}
             sx={GridStyles_1}
-            
+
           >
             <ColumnOne />
           </Grid>
@@ -27,7 +27,7 @@ function App() {
             sx={GridStyles_2}
             className='col2-main'
           >
-            <ColMain/>
+            <ColMain />
           </Grid>
         </Grid>
       </Store.Provider>

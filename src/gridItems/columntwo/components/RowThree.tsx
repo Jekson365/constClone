@@ -1,27 +1,24 @@
+import React from 'react'
 import { Grid, Box } from '@mui/material'
 import { CENTERIT } from '../../../styles'
-import { Content } from './rowone/Content'
+import { Sales } from './rowone/four boxes/Sales'
 type Props = {}
 
-
-const arr = [1, 0]
-
-
-export const RowOne = (props: Props) => {
+export const RowThree = (props: Props) => {
+    const arr = [8, 16]
     return (
         <>
             <Grid container columns={24} mt={2} columnSpacing={4}>
                 {arr.map((each) => {
                     return (
-                        <Grid xs={24} md={12} item mt={3}>
+                        <Grid xs={24} md={each} item mt={3}>
                             <Box
                                 borderRadius={3}
                                 bgcolor={'#35354E'}
                                 width={'100%'}
-                                height={"300px"}
+                                height={"250px"}
                                 sx={CENTERIT}
                             >
-                                {each == 1 ? <Content /> : ""}
                             </Box>
                         </Grid>
                     )

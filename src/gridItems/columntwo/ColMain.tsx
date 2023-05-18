@@ -4,6 +4,7 @@ import { LineChart, XAxis, YAxis, Legend, Tooltip, CartesianGrid, Line } from 'r
 import { CENTERIT } from '../../styles'
 import { RowOne } from './components/RowOne'
 import { RowTwo } from './components/RowTwo'
+import { RowThree } from './components/RowThree'
 
 type Props = {}
 
@@ -13,10 +14,11 @@ export const ColMain = (props: Props) => {
         <>
             <Grid container p={5} className='col2-main'>
                 <Typography variant='h4'>მთავარი</Typography>
-                    <RowOne />
+                <RowOne />
                 <Grid container columns={24}>
-                    <RowTwo/>
+                    <RowTwo />
                 </Grid>
+                <RowThree />
             </Grid>
         </>
     )
