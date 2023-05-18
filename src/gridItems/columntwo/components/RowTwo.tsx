@@ -2,6 +2,7 @@ import { Grid, Box } from '@mui/material'
 import { CENTERIT } from '../../../styles'
 import { Sales } from './rowone/four boxes/Sales'
 import { Users } from './rowone/four boxes/Users'
+import { Downloads } from './rowone/four boxes/Downloads'
 type Props = {}
 
 
@@ -42,7 +43,7 @@ export const RowTwo = (props: Props) => {
                         height={"180px"}
                         sx={CENTERIT}
                     >
-                        <Users />
+                        <Downloads />
                     </Box>
                 </Grid>
                 <Grid xs={24} md={6} item mt={3}>
@@ -53,7 +54,7 @@ export const RowTwo = (props: Props) => {
                         height={"180px"}
                         sx={CENTERIT}
                     >
-                        <Users />
+                        <Downloads />
                     </Box>
                 </Grid>
             </Grid>
