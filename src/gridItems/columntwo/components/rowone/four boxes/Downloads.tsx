@@ -1,12 +1,10 @@
-import React from 'react'
 import { Grid, Stack, Typography } from '@mui/material'
 import { ResponsiveContainer, BarChart, CartesianGrid, XAxis, Tooltip, Bar } from 'recharts'
 import { CENTERIT } from '../../../../../styles'
 import DownloadIcon from '@mui/icons-material/Download'
 
-type Props = {}
 
-export const Downloads = (props: Props) => {
+export const Downloads = () => {
     const data = [
         {
             "name": "Jan",

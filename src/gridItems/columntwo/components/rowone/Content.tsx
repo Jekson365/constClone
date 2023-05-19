@@ -1,13 +1,11 @@
 // @ts-ignore
 import { Box, Grid, Typography } from '@mui/material'
-import { LineChart, Line, Tooltip, CartesianGrid, YAxis, XAxis, ResponsiveContainer, AreaChart, ReferenceLine, Area } from 'recharts';
+import { Tooltip, CartesianGrid, YAxis, XAxis, ResponsiveContainer, AreaChart, ReferenceLine, Area } from 'recharts';
 
-import React from 'react'
 import { CENTERIT } from '../../../../styles';
 
-type Props = {}
 
-export const Content = (props: Props) => {
+export const Content = () => {
     const data =
         [
             { name: 'Page A', uv: 400, pv: 400, amt: 2400 },
@@ -33,7 +31,7 @@ export const Content = (props: Props) => {
             >
                 <Grid item xs={6} display={'flex'} flexDirection={'column'} p={3}>
                     <Box>
-                        <Typography component='p' color={'#1B9C85'} fontWeight={'bold'} letterSpacing={1}>Balance</Typography>
+                        <Typography component='p' color={'#1B9C85'} fontWeight={'bold'} letterSpacing={1}>ბალანსი</Typography>
                         <Typography variant='h2' component={'h2'} color={'white'}>25.5$</Typography>
                     </Box>
                     <Box>

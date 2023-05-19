@@ -1,11 +1,9 @@
 import { Grid, Stack, Typography } from '@mui/material'
-import React from 'react'
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import { ResponsiveContainer, BarChart, CartesianGrid, XAxis, Tooltip, Bar } from 'recharts'
 import { CENTERIT } from '../../../../../styles'
-type Props = {}
 
-export const Users = (props: Props) => {
+export const Users = () => {
     const data = [
         {
             "name": "Jan",

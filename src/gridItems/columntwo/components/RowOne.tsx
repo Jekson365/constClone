@@ -1,6 +1,10 @@
+// @ts-nocheck
+
 import { Grid, Box } from '@mui/material'
 import { CENTERIT } from '../../../styles'
 import { Content } from './rowone/Content'
+import { Messages } from './rowone/Messages'
+import { Fade } from 'react-reveal'
 type Props = {}
 
 
@@ -14,15 +18,17 @@ export const RowOne = (props: Props) => {
                 {arr.map((each) => {
                     return (
                         <Grid xs={24} md={12} item mt={3}>
-                            <Box
-                                borderRadius={3}
-                                bgcolor={'#35354E'}
-                                width={'100%'}
-                                height={"300px"}
-                                sx={CENTERIT}
-                            >
-                                {each == 1 ? <Content /> : ""}
-                            </Box>
+                            <Fade up>
+                                <Box
+                                    borderRadius={3}
+                                    bgcolor={'#35354E'}
+                                    width={'100%'}
+                                    height={"300px"}
+                                    sx={CENTERIT}
+                                >
+                                    {each == 1 ? <Content /> : <Messages />}
+                                </Box>
+                            </Fade>
                         </Grid>
                     )
                 })}

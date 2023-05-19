@@ -1,14 +1,10 @@
-import { Grid, Box, Typography, Stack, Icon } from '@mui/material'
-import React from 'react'
+import { Grid, Typography, Stack } from '@mui/material'
 import PaidIcon from '@mui/icons-material/Paid';
-import { Bar, BarChart, CartesianGrid, Legend, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { Pie } from 'recharts';
-import GroupAddIcon from '@mui/icons-material/GroupAdd';
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
 import { CENTERIT } from '../../../../../styles'
 
-type Props = {}
 
-export const Sales = (props: Props) => {
+export const Sales = () => {
     const data = [
         {
             "name": "Jan",

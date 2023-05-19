@@ -1,6 +1,4 @@
-import { Box, Icon, Stack, Typography, Grid, Button, ButtonGroup } from '@mui/material'
-import React from 'react'
-import BalanceIcon from '@mui/icons-material/Balance';
+import { Box, Stack, Button, ButtonGroup } from '@mui/material'
 import HomeIcon from '@mui/icons-material/Home';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
@@ -8,9 +6,8 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import { ColOneStack, NavColumn, NavItems, mainImage } from '../styles'
 
 
-type Props = {}
 
-export const ColumnOne = (props: Props) => {
+export const ColumnOne = () => {
 
   const Navitems = [
     {
